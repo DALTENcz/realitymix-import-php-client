@@ -13,7 +13,7 @@ $rkPassword = ''; // Heslo do importního rozhraní.
 $rkSwKey = ''; // SW klíč do importního rozhraní.
 
 // Vytvoříme si instanci xml rpc klienta.
-$client = new Rmix_Client('http://realitymix.centrum.cz/import/rpc/', 'utf-8');
+$client = new Rmix_Client('https://realitymix.cz/import/rpc/', 'utf-8');
 // Pokud chceme zobrazit xml komunikaci nastavíme instanci loggeru.
 $client->setLogger(new Rmix_StdOutLogger());
 
